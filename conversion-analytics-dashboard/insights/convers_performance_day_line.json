@@ -1,0 +1,26 @@
+  {
+    "$id": "convers_performance_day_line",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Conversion Performance by Day",
+    "description": "The count of clicks, count of conversions, sum total of conversion value, and the average conversion value per day ",
+    "query": {
+      "metrics": [
+        "yext/CLICK_COUNT",
+        "yext/CONVERSION_COUNT",
+        "yext/TOTAL_CONVERSION_VALUE",
+        "yext/AVERAGE_CONVERSION_VALUE"
+      ],
+      "dimensions": [
+        "yext/DAYS"
+      ],
+      "filters": [
+        {
+          "filter": "yext/date",
+          "in": "DAYS_7"
+        }
+      ]
+    },
+    "display": {
+      "line": {}
+    }
+  }
