@@ -1,5 +1,5 @@
   {
-    "$id": "convers_performance_referrer_table",
+    "$id": "conversionsAnalytics_convers_performance_referrer_table",
     "$schema": "https://schema.yext.com/config/analytics/insight/v1",
     "name": "Conversion Performance by Referrer URL",
     "description": "The count of clicks, count of conversions, sum total of conversion value, and the average conversion value by Referrer URL  ",

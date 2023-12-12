@@ -1,5 +1,5 @@
 {
-  "$id": "avg_convers_value_hero",
+  "$id": "conversionsAnalytics_avg_convers_value_hero",
   "$schema": "https://schema.yext.com/config/analytics/insight/v1",
   "name": "Average Conversion Value ",
   "description": "The average value of a conversion on your sites.",
