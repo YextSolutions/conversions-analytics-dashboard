@@ -1,5 +1,5 @@
 {
-    "$id": "conversionsAnalytics_lick_count_entitytype_bar",
+    "$id": "conversionsAnalytics_click_count_entitytype_bar",
     "$schema": "https://schema.yext.com/config/analytics/insight/v1",
     "name": "Click Count by Entity Type",
     "description": "The count of clicks per entity type",
